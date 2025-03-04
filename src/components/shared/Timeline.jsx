@@ -1,5 +1,5 @@
 // import { BorderBeam } from "../magicui/border-beam";
-import { education1, education2, experience, theme } from "@/constants";
+import { education1, education2, experience1, experience2, experience3, experience4, experience5, theme } from "@/constants";
 import BoxReveal from "../magicui/box-reveal";
 
 const Timeline = () => {
@@ -45,6 +45,16 @@ const Timeline = () => {
               </BoxReveal>
               <BoxReveal boxColor={theme}>
                 <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {education2.branch}
+                </p>
+              </BoxReveal>
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {education2.branch}
+                </p>
+              </BoxReveal>
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
                   {education2.year}
                 </p>
               </BoxReveal>
@@ -65,23 +75,112 @@ const Timeline = () => {
             <li>
               <BoxReveal boxColor={theme}>
                 <p className="text-5xl max-xl:text-4xl max-sm:text-3xl my-2 ">
-                {experience.name}
+                {experience1.name}
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={theme}>
                 <p className="text-4xl max-xl:text-2xl max-sm:text-xl  ">
-                {experience.moreInfo}
+                {experience1.moreInfo}
                 </p>
               </BoxReveal>
 
               <BoxReveal boxColor={theme}>
                 <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
-                  {experience.year}
+                  {experience1.year}
                 </p>
               </BoxReveal>
             </li>
           </ol>
+          <br />
+          <ol>
+            <li>
+              <BoxReveal boxColor={theme}>
+                <p className="text-5xl max-xl:text-4xl max-sm:text-3xl my-2 ">
+                {experience2.name}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-4xl max-xl:text-2xl max-sm:text-xl  ">
+                {experience2.moreInfo}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {experience2.year}
+                </p>
+              </BoxReveal>
+            </li>
+          </ol>
+          <br />
+          <ol>
+            <li>
+              <BoxReveal boxColor={theme}>
+                <p className="text-5xl max-xl:text-4xl max-sm:text-3xl my-2 ">
+                {experience3.name}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-4xl max-xl:text-2xl max-sm:text-xl  ">
+                {experience3.moreInfo}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {experience3.year}
+                </p>
+              </BoxReveal>
+            </li>
+          </ol>
+          <br />
+          <ol>
+            <li>
+              <BoxReveal boxColor={theme}>
+                <p className="text-5xl max-xl:text-4xl max-sm:text-3xl my-2 ">
+                {experience4.name}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-4xl max-xl:text-2xl max-sm:text-xl  ">
+                {experience4.moreInfo}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {experience4.year}
+                </p>
+              </BoxReveal>
+            </li>
+          </ol>
+          <br />
+          <ol>
+            <li>
+              <BoxReveal boxColor={theme}>
+                <p className="text-5xl max-xl:text-4xl max-sm:text-3xl my-2 ">
+                {experience5.name}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-4xl max-xl:text-2xl max-sm:text-xl  ">
+                {experience5.moreInfo}
+                </p>
+              </BoxReveal>
+
+              <BoxReveal boxColor={theme}>
+                <p className="text-3xl max-xl:text-xl max-sm:text-lg  ">
+                  {experience5.year}
+                </p>
+              </BoxReveal>
+            </li>
+          </ol>
+
         </section>
       </div>
     </div>

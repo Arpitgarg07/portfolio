@@ -30,7 +30,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="max-sm:hidden">
-        <p>Made by shawn.</p>
+        <p>Made by Arpit.</p>
       </div>
     </footer>
   );
