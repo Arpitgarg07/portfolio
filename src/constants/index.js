@@ -57,7 +57,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall4.jpg",
     className:
-      "md:col-start-1 md:col-end-4 md:row-start-3 md:row-end-5 col-start-2 col-end-3 row-start-1 row-end-4 ",
+      "md:col-start-1 md:col-end-4 md:row-start-3 md:row-end-5 col-start-1 col-end-3 row-start-6 row-end-8 ",
   },
   {
     name: "Bug Bounty",
@@ -67,7 +67,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/gg.jpg",
     className:
-      "md:row-start-1 md:row-end-3 md:col-start-3 md:col-end-5 col-start-1 col-end-2 row-start-1 row-end-3",
+      "md:row-start-1 md:row-end-3 md:col-start-3 md:col-end-5 col-start-1 col-end-3 row-start-3 row-end-5",
   },
   {
     name: "VIBETRIBE",
@@ -77,7 +77,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/gg4.png",
     className:
-      "md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-2  col-start-1 col-end-3 row-start-5 row-end-6 ",
+      "md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-2  col-start-1 col-end-3 row-start-1 row-end-2 ",
   },
   {
     name: "JARVIS",
@@ -88,7 +88,7 @@ export const projects = [
     background: "/images/wall.jpg",
 
     className:
-      "md:col-start-4 md:col-end-5 md:row-start-3 md:row-end-5 col-start-1 col-end-3 row-start-4 row-end-5",
+      "md:col-start-4 md:col-end-5 md:row-start-3 md:row-end-5 col-start-2 col-end-3 row-start-8 row-end-10",
   },
   {
     name: "Currency Bridge",
@@ -98,7 +98,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall5.jpg",
     className:
-      " md:col-start-1 md:col-end-3 md:row-start-2 md:row-end-3  col-start-1 col-end-2 row-start-3 row-end-3 ",
+      " md:col-start-1 md:col-end-3 md:row-start-2 md:row-end-3  col-start-1 col-end-3 row-start-2 row-end-3 ",
   },
   {
     name: "Github Code editor & Pull Request Creation",
@@ -108,7 +108,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall6.jpeg",
     className:
-      "md:col-start-1 md:col-end-2 md:row-start-5 md:row-end-7  col-start-1 col-end-3 row-start-6 row-end-7 ",
+      "md:col-start-1 md:col-end-2 md:row-start-5 md:row-end-7  col-start-2 col-end-3 row-start-10 row-end-12 ",
   },
   {
     name: "EverySip",
@@ -118,7 +118,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall7.jpg",
     className:
-      "md:col-start-2 md:col-end-3 md:row-start-5 md:row-end-7  col-start-1 col-end-3 row-start-6 row-end-7 ",
+      "md:col-start-2 md:col-end-3 md:row-start-5 md:row-end-7  col-start-1 col-end-2 row-start-10 row-end-12 ",
   },
   {
     name: "On chain Reciept Generator",
@@ -128,7 +128,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall9.jpeg",
     className:
-      "md:col-start-3 md:col-end-4 md:row-start-5 md:row-end-7  col-start-1 col-end-3 row-start-6 row-end-7 ",
+      "md:col-start-3 md:col-end-4 md:row-start-5 md:row-end-7  col-start-1 col-end-3 row-start-5 row-end-6 ",
   },
   {
     name: "Breatho",
@@ -138,7 +138,7 @@ export const projects = [
     cta: "Learn more",
     background: "/images/wall8.jpeg",
     className:
-      "md:col-start-4 md:col-end-5 md:row-start-5 md:row-end-7  col-start-1 col-end-3 row-start-6 row-end-7 ",
+      "md:col-start-4 md:col-end-5 md:row-start-5 md:row-end-7  col-start-1 col-end-2 row-start-8 row-end-10 ",
   },
 ];
 
