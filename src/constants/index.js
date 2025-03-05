@@ -47,7 +47,6 @@ export const experience5 = {
   year: "May 2024 - Present",
 };
 
-
 export const projects = [
   {
     name: "ALGOEASE",
